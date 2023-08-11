@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Unforgettable travel merch experiences",
             "heading_size": "h0"
           }
         },
@@ -28,9 +28,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_2.png",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
