@@ -12,8 +12,8 @@
 
 .allroad__banner{ background-color: #030303;}
 
-.list-menu__item li a{  padding-left: 24px;
+.list-menu li a.list-menu__item{  padding-left: 24px;
     padding-right: 24px; } 
 
-.list-menu__item li:first-child a{     padding-left: 60px;
+.list-menu li:first-child a.list-menu__item{     padding-left: 60px;
     padding-right: 50px; }
