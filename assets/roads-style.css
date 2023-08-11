@@ -21,4 +21,4 @@
     padding-right: 50px; }
 }
 
-    .header__search{ display:none; }
+    .header__search{ display:none!important; }
