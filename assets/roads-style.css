@@ -11,3 +11,9 @@
 .clip-path{clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);}
 
 .allroad__banner{ background-color: #030303;}
+
+.list-menu__item li{  padding-left: 24px;
+    padding-right: 24px; } 
+
+.list-menu__item li:first-child a{     padding-left: 60px;
+    padding-right: 50px; }
