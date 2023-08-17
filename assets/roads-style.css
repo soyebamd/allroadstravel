@@ -44,8 +44,7 @@
 .arrow img{    transition: all 1s;
     transform: translateX(10px); }
 
-
-    .arrow:hover img{ transform: translateX(0px); }
+.arrow:hover img{ transform: translateX(0px); }
 
 
 
