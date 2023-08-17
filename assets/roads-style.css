@@ -45,8 +45,12 @@
 .arrow img{    transition: all 600ms;
     transform: translateX(10px); }
 
-    .button:hover {  padding: 0 10px;
+    .button:hover {  padding: 0 10px; background: #000;
     }
+
+
+    .button--secondary:hover{  background: #2DCDD5; }
+
 .button:hover .arrow img{ transform: translateX(0px); }
 
 
