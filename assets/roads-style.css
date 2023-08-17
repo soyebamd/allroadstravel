@@ -28,7 +28,11 @@
     background: #2DCDD5;
    color:#fff;
    min-height: 56px;
+   box-shadow: none!important;
 }
+
+
+.button:after{ box-shadow: none!important;}
 
 
 .button--secondary{ background-color: #000; color:#fff; }
