@@ -16,8 +16,8 @@
 
 .button {
 
-    width: 280px;
-    padding: 0px 16px;
+    width: auto;
+    padding: 0px 20px;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -44,6 +44,8 @@
 .arrow img{    transition: all 1s;
     transform: translateX(10px); }
 
+    .button:hover {  padding: 0 10px;
+    }
 .button:hover .arrow img{ transform: translateX(0px); }
 
 
