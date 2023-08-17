@@ -56,9 +56,9 @@
 
 .button--secondary .button-text{   background: #000; }
 
-
+/* 
 .arrow img{    transition: all 600ms;
-    transform: translateX(10px); }
+    transform: translateX(10px); } */
 
     .button:hover {  padding: 0 10px; background: #000;
     }
