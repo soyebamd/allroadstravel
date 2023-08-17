@@ -69,7 +69,8 @@
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3"
       ],
       "settings": {
-        "title": "Collections",
+        "clip_path": true,
+        "title": "Pick Your Getaway",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
