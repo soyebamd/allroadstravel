@@ -99,6 +99,18 @@
   }
 
 
+  .card-collection-list .card__media{
+    filter: grayscale(1);
+    transition: all 600ms;
+  }
+
+
+  .card-collection-list:hover .card__media{
+    filter: grayscale(0);
+  }
+
+
+
 
 
   
