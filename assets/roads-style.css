@@ -45,6 +45,7 @@
     background: black;
     padding-left: 10px;
     transition: all 600ms;
+    z-index: 9;
 
 }
 
