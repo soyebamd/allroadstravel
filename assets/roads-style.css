@@ -113,6 +113,10 @@
 
 
 
+/*Component Card*/
+
+.card--card, .card--standard .card__inner{    background: #f7f6ef; }
+
   
 @media screen and (min-width: 750px) {
     .card-collection-list   .card__information {
