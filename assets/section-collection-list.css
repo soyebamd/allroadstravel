@@ -4,6 +4,9 @@
   
 }
 
+@media screen and (min-width: 990px){
+.collection-list-wrapper.page-width-desktop{    max-width: 122rem; }
+}
 
 @media screen and (min-width: 750px) {
 
