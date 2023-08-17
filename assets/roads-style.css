@@ -44,6 +44,7 @@
     margin-left: -22px;
     background: black;
     padding-left: 10px;
+    transition: all 600ms;
 
 }
 
@@ -62,7 +63,7 @@
 
 .button:hover .button-text{  margin-left: 0px;
     background: #2DCDD5;
-    padding-left: 0px;  }
+    }
 
 
 
