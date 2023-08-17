@@ -29,6 +29,7 @@
    color:#fff;
    min-height: 56px;
    box-shadow: none!important;
+   transition: all 600ms;
 }
 
 
@@ -41,7 +42,7 @@
 .arrow{    overflow: hidden; }
 
 
-.arrow img{    transition: all 1s;
+.arrow img{    transition: all 600ms;
     transform: translateX(10px); }
 
     .button:hover {  padding: 0 10px;
