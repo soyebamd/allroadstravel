@@ -6,8 +6,15 @@
 }
 
 .card {
+
   text-decoration: none;
   text-align: var(--text-alignment);
+  padding: 1.6rem 1.4rem;
+  border: 1px solid var(--gray-400, #9E9E94);
+  background: #030303;
+
+  text-align: center;
+
 }
 
 .card:not(.ratio) {
@@ -162,8 +169,8 @@
 
 @media screen and (min-width: 750px) {
   .card__information {
-    padding-bottom: 1.7rem;
-    padding-top: 1.7rem;
+    padding-bottom: 0;
+    padding-top: 1.5rem;
   }
 }
 
