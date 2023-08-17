@@ -71,7 +71,15 @@
     }
 
     
-.button--secondary:hover .button-text{   background: #2DCDD5; }
+.button--secondary:hover .button-text{   background: #2DCDD5;
+
+    margin-left: 0px;
+
+    padding-left: 0;
+  
+   
+
+}
 
 
 
