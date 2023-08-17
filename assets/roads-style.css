@@ -39,7 +39,16 @@
 .button--secondary{ background-color: #000; color:#fff; }
 
 
-.arrow{    overflow: hidden; }
+.button-text{
+
+    margin-left: -22px;
+    background: black;
+    padding-left: 10px;
+
+}
+
+
+
 
 
 .arrow img{    transition: all 600ms;
@@ -51,7 +60,9 @@
 
     .button--secondary:hover{  background: #2DCDD5; }
 
-.button:hover .arrow img{ transform: translateX(0px); }
+.button:hover .button-text{  margin-left: 0px;
+    background: #2DCDD5;
+    padding-left: 0px;  }
 
 
 
