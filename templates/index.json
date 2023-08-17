@@ -72,11 +72,11 @@
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
         "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
