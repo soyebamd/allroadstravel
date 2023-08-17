@@ -84,6 +84,30 @@
 
 
 
+/*Collection list banner*/
+
+.card-collection-list .card {
+
+    text-decoration: none;
+    text-align: var(--text-alignment);
+    padding: 1.6rem 1.4rem;
+    border: 1px solid var(--gray-400, #9E9E94);
+    background: #030303;
+  
+    text-align: center;
+  
+  }
+
+
+
+
+  
+@media screen and (min-width: 750px) {
+    .card-collection-list   .card__information {
+      padding-bottom: 0;
+      padding-top: 1.5rem;
+    }
+  }
 
 
 
