@@ -13,7 +13,7 @@
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 0,
-    "buttons_border_opacity": 100,
+    "buttons_border_opacity": 0,
     "buttons_radius": 46,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
