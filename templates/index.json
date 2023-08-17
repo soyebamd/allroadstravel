@@ -47,16 +47,22 @@
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "las-vegas"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "nashville"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-orleans"
+          }
+        },
+        "789a2211-0631-4c44-bda1-dd60c1b761e8": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
@@ -66,7 +72,8 @@
       "block_order": [
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-1",
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-2",
-        "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3"
+        "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3",
+        "789a2211-0631-4c44-bda1-dd60c1b761e8"
       ],
       "settings": {
         "clip_path": true,
