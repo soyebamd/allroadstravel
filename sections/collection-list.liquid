@@ -132,7 +132,10 @@ class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} pag
           id="ViewAllButton-{{ section.id }}"
           aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}"
         >
-          {{- 'sections.collection_list.view_all' | t -}}
+                             
+        <span class="arrow">{{ 'arrow.svg' | asset_url |img_tag   }}   </span>       <span class="button-text"> {{- 'sections.collection_list.view_all' | t -}} </span>
+        
+        
         </a>
       </div>
     {%- endif -%}
