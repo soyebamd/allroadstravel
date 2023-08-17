@@ -12,6 +12,10 @@
 
   .collection-list { column-gap: 24px; }
 
+  .collection-list:last-child {
+    margin: 0!important;
+  }
+
   
 
 }
