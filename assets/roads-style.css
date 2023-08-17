@@ -50,7 +50,7 @@
 }
 
 
-.button--secondary .button-text{   background: #2DCDD5; }
+.button--secondary .button-text{   background: #000; }
 
 
 .arrow img{    transition: all 600ms;
@@ -63,11 +63,11 @@
     .button--secondary:hover{  background: #2DCDD5; }
 
 .button:hover .button-text{  margin-left: 2px;
-    background: #2DCDD5;
+    background: #000;
     }
 
     
-.button--secondary:hover .button-text{   background: #000; }
+.button--secondary:hover .button-text{   background: #2DCDD5; }
 
 
 
