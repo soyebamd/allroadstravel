@@ -17,6 +17,7 @@
 .button {
 
     width: auto;
+    min-width: 196px;
     padding: 0px 23px;
     justify-content: center;
     align-items: center;
