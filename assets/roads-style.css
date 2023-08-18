@@ -123,7 +123,11 @@
 
 .shadow img{
   max-width: 100%;
+  transition: all 600ms;
 }
+
+.card:hover .shadow img{ transform: scale(.8);}
+
   
 @media screen and (min-width: 750px) {
     .card-collection-list   .card__information {
