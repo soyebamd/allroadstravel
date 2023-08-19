@@ -170,7 +170,7 @@
     transform: translateY(-50%);
 }
 
-.mailinfo{ margin-right: 12px;}
+.mailinfo{ padding-right: 12px;}
 
 .footer-main__menu ul li:first-child:after { display: none;}
   
