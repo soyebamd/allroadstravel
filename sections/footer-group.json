@@ -29,8 +29,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
-        "image": "shopify:\/\/shop_images\/allroads-logo.svg",
-        "image_width_1": 160,
+        "image": "shopify:\/\/shop_images\/logo-transparent.png",
+        "image_width_1": 100,
         "alignment": "",
         "menu": "footer",
         "newsletter_enable": false,
