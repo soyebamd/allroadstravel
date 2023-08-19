@@ -48,25 +48,28 @@
           "type": "featured_collection",
           "settings": {
             "collection": "las-vegas",
-            "image": "shopify:\/\/shop_images\/Toronto1Front_2_528ed4b1-2bab-46fb-bd2a-83bfd4b7362f.png"
+            "image": "shopify:\/\/shop_images\/image_118.png"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "nashville"
+            "collection": "nashville",
+            "image": "shopify:\/\/shop_images\/image_117.png"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-orleans"
+            "collection": "new-orleans",
+            "image": "shopify:\/\/shop_images\/image_119.png"
           }
         },
         "789a2211-0631-4c44-bda1-dd60c1b761e8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toronto"
+            "collection": "toronto",
+            "image": "shopify:\/\/shop_images\/image_116.png"
           }
         }
       },
