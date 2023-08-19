@@ -88,7 +88,7 @@
         "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
         "show_view_all": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 76
       }
