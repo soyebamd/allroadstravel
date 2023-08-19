@@ -9,8 +9,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/allroads-logo.svg",
-            "image_width": 100,
-            "alignment": "center"
+            "image_width": 135,
+            "alignment": ""
           }
         },
         "8c2eb81b-6893-4080-aecd-742c18ff71e1": {
