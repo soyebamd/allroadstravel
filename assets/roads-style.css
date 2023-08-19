@@ -152,7 +152,23 @@
 
 .footer-main__menu ul{     display: flex;
   justify-content: end; }
+  .footer-main__menu ul li {
+    margin: 0 12px;
+    position: relative;
+}
 
+  .footer-main__menu ul li:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+  
+  
+    height: 12px;
+    width: 1px;
+    top: 50%;
+    left: -12px;
+    transform: translateY(-50%);
+}
 
   
 @media screen and (min-width: 750px) {
