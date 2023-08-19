@@ -52,7 +52,13 @@
           <div class="media media--transparent media--hover-effect">
             
           
-          {{ section.settings.image}}
+
+  <img
+  src="{{ block.settings.image | image_url: width: 560 }}"
+  alt="{{ block.settings.image.alt | escape }}"
+  loading="lazy"
+  width="100%"
+ >
 
           {% comment %}
             
