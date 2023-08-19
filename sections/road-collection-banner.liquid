@@ -17,6 +17,10 @@
     margin: auto;
   }
 
+  .mx-auto {
+    margin: auto;
+  }
+
   @media screen and (min-width: 750px) {
 
 
@@ -44,7 +48,7 @@
     {%- if section.settings.show_collection_image and collection.image -%}
       <img
         src="{{ collection.image | image_url }}"
-        class="img-fluid">
+        class="img-fluid mx-auto">
 
     {%- endif -%}
   </div>
