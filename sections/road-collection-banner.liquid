@@ -43,7 +43,8 @@
 
     {%- if section.settings.show_collection_image and collection.image -%}
       <img
-        src="{{ collection.image | image_url }}">
+        src="{{ collection.image | image_url }}"
+        class="img-fluid">
 
     {%- endif -%}
   </div>
