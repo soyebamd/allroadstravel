@@ -12,10 +12,18 @@
             "image_width": 100,
             "alignment": "center"
           }
+        },
+        "8c2eb81b-6893-4080-aecd-742c18ff71e1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "ee7fb9d2-15d8-48b2-a168-006aeadba130"
+        "ee7fb9d2-15d8-48b2-a168-006aeadba130",
+        "8c2eb81b-6893-4080-aecd-742c18ff71e1"
       ],
       "settings": {
         "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
