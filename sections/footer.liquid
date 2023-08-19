@@ -91,7 +91,28 @@
 </div>
 
 
-<div class="grid footer-main__menu"> {{ section.settings.image_width_1 }} </div>
+<div class="grid footer-main__menu"> 
+  
+
+
+  {%- if section.settings.menu != blank -%}
+    <ul class="footer-section__details-content list-unstyled">
+      {%- for link in section.settings.menu.links -%}
+        <li>
+          <a
+            href="{{ link.url }}"
+            class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+          >
+            {{ link.title }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+  
+  
+  
+  </div>
 
 </secton>
 
@@ -571,6 +592,15 @@
             }
           ],
           "default": "center"
+        },
+
+
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+          "info": "t:sections.footer.blocks.link_list.settings.menu.info"
         },
       
     {
