@@ -170,6 +170,7 @@
     transform: translateY(-50%);
 }
 
+.footer-main__menu ul li:first-child:after { display: none;}
   
 @media screen and (min-width: 750px) {
     .card-collection-list   .card__information {
