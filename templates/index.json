@@ -47,7 +47,8 @@
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "las-vegas"
+            "collection": "las-vegas",
+            "image": "shopify:\/\/shop_images\/Toronto1Front_2_528ed4b1-2bab-46fb-bd2a-83bfd4b7362f.png"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-2": {
