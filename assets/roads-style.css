@@ -137,7 +137,7 @@
 
 
 
-.card__content h3.card__heading, .price { font-size: 1.6rem; font-family: 'Poppins', sans-serif; }
+.card__content h3.card__heading, .price { font-size: 1.6rem; font-family: 'Poppins', sans-serif; font-weight: 800; }
 
 
 
