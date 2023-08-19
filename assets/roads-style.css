@@ -190,6 +190,12 @@
 
 @media screen and (max-width: 768px) {
 .footer-main{ display: block;}
+
+.footer-main__logo, .footer-main__menu ul {
+  
+  margin: auto;}
+
+
 }
   
 @media screen and (min-width: 750px) {
