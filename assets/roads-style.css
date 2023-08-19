@@ -134,7 +134,7 @@
   transition: all 600ms;
 }
 
-.card:hover .shadow img{ transform: scale(.8);}
+.card:hover .shadow img{ transform: scale(.65);}
 
 
 
