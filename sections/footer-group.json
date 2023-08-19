@@ -1,1 +1,47 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ee7fb9d2-15d8-48b2-a168-006aeadba130": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allroads-logo.svg",
+            "image_width": 135,
+            "alignment": ""
+          }
+        },
+        "8c2eb81b-6893-4080-aecd-742c18ff71e1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "ee7fb9d2-15d8-48b2-a168-006aeadba130",
+        "8c2eb81b-6893-4080-aecd-742c18ff71e1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 84,
+        "padding_bottom": 84
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
