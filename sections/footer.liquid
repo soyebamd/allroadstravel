@@ -69,7 +69,26 @@
 
 <div class="grid footer-main__logo">
 
-logo
+<div class="footer-block__details-content footer-block-image {{ section.settings.alignment }}">
+                      {%- if section.settings.image != blank -%}
+                        {%- assign image_size_2x = section.settings.image_width | times: 2 | at_most: 5760 -%}
+                        <div
+                          class="footer-section__image-wrapper"
+                          style="max-width: min(100%, {{ section.settings.image_width }}px);"
+                        >
+                          <img
+                            srcset="{{ section.settings.image | image_url: width: section.settings.image_width }}, {{ section.settings.image | image_url: width: image_size_2x }} 2x"
+                            src="{{ section.settings.image | image_url: width: 760 }}"
+                            alt="{{ section.settings.image.alt | escape }}"
+                            loading="lazy"
+                            width="{{ section.settings.image.width }}"
+                            height="{{ section.settings.image.height }}"
+                          >
+                        </div>
+                      {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                      {%- endif -%}
+                    </div>
 
 </div>
 
