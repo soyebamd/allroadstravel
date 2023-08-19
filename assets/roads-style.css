@@ -201,7 +201,7 @@
     text-align: center;}
 
 
-    .footer-section__details-content .list-menu__item--link, .footer__content-bottom-wrapper--center{ justify-content: center;}
+    .footer-section__details-content .list-menu__item--link, .footer__content-bottom-wrapper--center{ justify-content: center!important;}
 
 
 
