@@ -86,6 +86,7 @@ class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} pag
           
             {% render 'card-collection-list',
               card_collection: block.settings.collection,
+              feature_image:block.settings.image,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
               placeholder_image: placeholder_image
