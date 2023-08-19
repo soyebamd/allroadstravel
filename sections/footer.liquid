@@ -401,6 +401,7 @@ logo
 {% schema %}
 {
   "name": "t:sections.footer.name",
+  
   "blocks": [
     {
       "type": "@app"
@@ -506,6 +507,7 @@ logo
     }
   ],
   "settings": [
+
     {
       "type": "color_scheme",
       "id": "color_scheme",
@@ -517,6 +519,43 @@ logo
       "content": "t:sections.footer.settings.header__1.content",
       "info": "t:sections.footer.settings.header__1.info"
     },
+
+        {
+          "type": "image_picker",
+          "id": "image_main",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width_main",
+          "min": 50,
+          "max": 550,
+          "step": 5,
+          "unit": "px",
+          "label": "Image width",
+          "default": 100
+        },
+        {
+          "type": "select",
+          "id": "alignment_main",
+          "label": "Image alignment on large screen",
+          "options": [
+            {
+              "value": "",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+      
     {
       "type": "checkbox",
       "id": "newsletter_enable",
