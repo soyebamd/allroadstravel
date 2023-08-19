@@ -61,27 +61,20 @@
           -%}
 
 
-          <div
-        class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-        {% if settings.animations_reveal_on_scroll %}
-          data-cascade
-        {% endif %}
-      >
 
 
-
-<secton class="footer-main">
+<secton class="footer-main d-flex justify-space-between">
   
 
 
-<div class="footer-main__logo">
+<div class="grid footer-main__logo">
 
 logo
 
 </div>
 
 
-<div class="footer-main__menu"> Menu</div>
+<div class="grid footer-main__menu"> Menu</div>
 
 </secton>
 
@@ -89,7 +82,6 @@ logo
 
 
 
-</div>
 
 
 
