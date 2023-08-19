@@ -77,13 +77,11 @@
                           style="max-width: min(100%, {{ section.settings.image_width_1 }}px);"
                         >
                           <img
-                            srcset="{{ section.settings.image | image_url: width: section.settings.image_width_1 }}, {{ section.settings.image | image_url: width: image_size_2x }} 2x"
                             src="{{ section.settings.image | image_url: width: 760 }}"
                             alt="{{ section.settings.image.alt | escape }}"
                             loading="lazy"
-                            width="{{ section.settings.image.width }}"
-                            height="{{ section.settings.image.height }}"
-                          >
+                            width="100%"
+                           >
                         </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
