@@ -188,15 +188,17 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:750px) {
 .footer-main{ display: block;}
+
+.footer-main__logo{ width:100%; }
 
 .footer-main__logo, .footer-main__menu ul {
   
   margin: auto;}
 
   .footer-main__menu {
-   
+   width:100%;
     margin: auto;
     text-align: center;}
 
