@@ -50,10 +50,14 @@
       {%- if card_collection.featured_image -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
+
+          {% assign feature_image_selection = feature_image %}
             
-          
+          {% if  feature_image_selection  %}
          
-          <img src="{{ feature_image |  image_url: width: 500 }}"  loading="lazy" class="motion-reduce" >
+          <img src="{{ feature_image_selection |  image_url: width: 500 }}"  loading="lazy" class="motion-reduce" >
+
+    {% endif %}
 
           {% comment %}
             
