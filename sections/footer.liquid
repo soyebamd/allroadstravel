@@ -59,21 +59,46 @@
               assign footer_grid_class = 'grid--3-col-tablet'
             endif
           -%}
+
+
+          <div
+        class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        {% if settings.animations_reveal_on_scroll %}
+          data-cascade
+        {% endif %}
+      >
+
+
+
+<secton class="footer-main">
+  
+
+
+<div class="footer-main__logo">
+
+logo
+
+</div>
+
+
+<div class="footer-main__menu"> Menu</div>
+
+</secton>
+
+
+
+
+
+</div>
+
+
+
           <div
             class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
             {% endif %}
           >
-
-
-
-<secton class="footer-main">Main footer Figma</secton>
-
-
-
-
-
             {%- for block in section.blocks -%}
               <div
                 class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
