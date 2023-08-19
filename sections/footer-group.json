@@ -27,9 +27,9 @@
       ],
       "settings": {
         "color_scheme": "scheme-03b0503f-ff40-4f5c-882e-d4e4353f950b",
-        "image_main": "shopify:\/\/shop_images\/allroads-logo.svg",
-        "image_width_main": 210,
-        "alignment_main": "center",
+        "image": "shopify:\/\/shop_images\/allroads-logo.svg",
+        "image_width": 90,
+        "alignment": "",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
