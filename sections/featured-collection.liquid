@@ -150,7 +150,13 @@
           href="{{ section.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}">
-          {{ 'sections.featured_collection.view_all' | t }}
+        
+          
+                                
+        <span class="arrow"><img src="//allroadstravel.shop/cdn/shop/t/4/assets/arrow.svg?v=89268902041864614441692245702" alt="">   </span>       <span class="button-text"> Load More </span>
+        
+
+
         </a>
       </div>
     {%- endif -%}
