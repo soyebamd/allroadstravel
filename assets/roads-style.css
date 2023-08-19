@@ -201,6 +201,9 @@
     text-align: center;}
 
 
+    .footer-section__details-content .list-menu__item--link{ justify-content: center;}
+
+
 }
   
 @media screen and (min-width: 750px) {
