@@ -177,6 +177,16 @@
 .mailinfo a{ color:#fff; text-decoration: none;}
 
 .footer-main__menu ul li:first-child:after { display: none;}
+
+@media screen and (max-width: 1070px) {
+
+  .footer-main__menu ul{ display: block;}
+
+  .footer-main__menu ul li:after {
+   display:none}
+
+
+}
   
 @media screen and (min-width: 750px) {
     .card-collection-list   .card__information {
