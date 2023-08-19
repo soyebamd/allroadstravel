@@ -89,6 +89,8 @@
 
 .justify-space-between {justify-content: space-between;}
 
+.align-items-center{    align-items: center; }
+
 /*Collection list banner*/
 
 .card-collection-list .card {
@@ -142,6 +144,12 @@
 .price__regular{ color:#2DCDD5; }
 
 
+.footer-main__logo{ width: 30%;}
+
+.footer-main__menu{    width: 70%; }
+
+.footer-main__menu ul{     display: flex;
+  justify-content: end; }
 
 
   
