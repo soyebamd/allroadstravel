@@ -102,7 +102,7 @@
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-8e398aad-c0db-4bc0-ab4f-b77b30b60370",
         "image_ratio": "adapt",
