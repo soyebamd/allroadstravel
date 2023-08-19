@@ -3,7 +3,8 @@
     "banner": {
       "type": "road-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_title": false,
+        "show_collection_description": false,
         "show_collection_image": true,
         "color_scheme": ""
       }
