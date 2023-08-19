@@ -87,6 +87,8 @@
 
 .d-flex{ display: flex;}
 
+.justify-space-between {justify-content: space-between;}
+
 /*Collection list banner*/
 
 .card-collection-list .card {
