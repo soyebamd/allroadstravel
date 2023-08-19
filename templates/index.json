@@ -54,13 +54,15 @@
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "nashville"
+            "collection": "nashville",
+            "image": "shopify:\/\/shop_images\/image_117.png"
           }
         },
         "template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-orleans"
+            "collection": "new-orleans",
+            "image": "shopify:\/\/shop_images\/image_119.png"
           }
         },
         "789a2211-0631-4c44-bda1-dd60c1b761e8": {
