@@ -57,13 +57,17 @@
 
 <div
   class="collection-hero__text-wrapper page-width center">
-  <h1
-    class="collection-hero__title">
-    <span
-      class="visually-hidden">{{ 'sections.collection_template.title' | t }}:
-    </span>
-    {{- collection.title | escape -}}
-  </h1>
+  {%- if section.settings.show_title -%}
+
+    <h1
+      class="collection-hero__title">
+      <span
+        class="visually-hidden">{{ 'sections.collection_template.title' | t }}:
+      </span>
+      {{- collection.title | escape -}}
+    </h1>
+
+  {%- endif -%}
 
   {%- if section.settings.show_collection_description -%}
     <div
