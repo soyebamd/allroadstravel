@@ -8,7 +8,9 @@
     }
   }
 
-
+  .page-width-full {
+    max-width: 100%;
+  }
 
   @media screen and (min-width: 750px) {
     .collection-hero.collection-hero--with-image {
@@ -23,7 +25,7 @@
 <div
   class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div
-    class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    class="collection-hero__inner page-width-full {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
 
 
     {%- if section.settings.show_collection_image and collection.image -%}
