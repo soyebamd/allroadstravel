@@ -209,7 +209,9 @@
 
 }
   
-.product__info-container .single-main-price{ color:#121314; font-weight: 500; font-family: 'Poppins', sans-serif;}
+.product__info-container .single-main-price{  font-weight: 500; font-family: 'Poppins', sans-serif;}
+
+.product__info-container  .price__regular{color:#121314;} 
 @media screen and (min-width: 750px){
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
 }
