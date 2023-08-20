@@ -1137,6 +1137,10 @@ a.product__text {
   color: rgb(var(--color-foreground));
   cursor: pointer;
   background-color: transparent;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  border: solid 1px #E9E9E2;
 }
 
 .thumbnail:hover {
