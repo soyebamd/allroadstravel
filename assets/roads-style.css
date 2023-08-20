@@ -211,7 +211,7 @@
   
 
 @media screen and (min-width: 750px){
-.single-main-price{ font-size: 4rem!important;  font-weight: 500; font-family: 'Poppins', sans-serif; line-height: 6rem;}
+.product__info-container .single-main-price{ font-size: 4rem!important;  font-weight: 500; font-family: 'Poppins', sans-serif; line-height: 6rem;}
 }
 
 @media screen and (min-width: 750px) {
