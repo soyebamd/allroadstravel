@@ -211,7 +211,7 @@
   
 
 @media screen and (min-width: 750px){
-.single-main-price{ font-size: 4rem; }
+.single-main-price{ font-size: 4rem!important; }
 }
 
 @media screen and (min-width: 750px) {
