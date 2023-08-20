@@ -1,0 +1,65 @@
+<style>
+
+
+.breadcrumb {
+      font-size: .9rem;
+    margin: 0 0 2rem 0;
+  color: #000000; }
+
+  
+  .breadcrumbs__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .breadcrumbs__item {
+    display: inline-block;
+   
+  }
+
+  .breadcrumb i{ font-size:12px; padding: 0 4px; }
+
+  .breadcrumb a{ color:#b3341c; }
+
+.breadcrumb .icon-arrow-right {
+  font-size: 8px;
+  position: relative;
+  top: -1px; }
+
+.breadcrumb a.ss-icon:hover {
+  color: #0d3ff0; }
+</style>
+
+{% if section.settings.product_breadcrumb %}
+
+
+    
+<nav class="breadcrumb_text breadcrumb" role="navigation" aria-label="breadcrumbs">
+  <ol class="breadcrumbs__list">
+
+    
+    <li class="breadcrumbs__item">
+      <a class="breadcrumbs__link" href="/">Home</a>
+
+       <i class="fa-solid fa-chevron-right"></i>
+    </li> 
+<li class="breadcrumbs__item">
+
+  {% assign collection =  product.collections %}
+
+   {% assign collectionSize = collection.size %}
+  
+    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<i class="fa-solid fa-chevron-right"></i></li>
+
+     <li class="breadcrumbs__item">
+        {{ product.title }}
+        </li>
+
+    
+    
+  </ol>
+</nav>
+
+    
+{% endif %}
