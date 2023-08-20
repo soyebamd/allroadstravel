@@ -44,7 +44,7 @@
     <li class="breadcrumbs__item">
       <a class="breadcrumbs__link" href="/">Home</a>
 
-      <i>{{ 'arrow-right.svg' | asset_url | img_tag }}</i>
+      <span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
 
 
     </li> 
@@ -54,7 +54,7 @@
 
    {% assign collectionSize = collection.size %}
   
-    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<i class="fa-solid fa-chevron-right"></i></li>
+    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span></li>
 
      <li class="breadcrumbs__item">
         {{ product.title }}
