@@ -243,7 +243,9 @@
 
 .product-features-list li img{ vertical-align: middle;}
 
-
+.form__label{    font-size: 18px;
+  font-weight: 600;
+  color: #121314;}
 
 @media screen and (min-width: 750px){
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
