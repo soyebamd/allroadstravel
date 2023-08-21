@@ -107,43 +107,20 @@
             {%- when 'heading' -%}
 
 
-              <div class="grid grid--1-col grid--2-col-desktop text-center">
-
-            
-                <div class="grid__item ">
-          
-          
-                  <div class="info-wrapper">
-          
-                    <div class="img-wrapper d-flex">
-          
-                      {{- block.settings.image | img_url: 'medium' | img_tag -}}
-
-                      <h3>
-                      
-                      {{- block.settings.title -}}
-                      
-                    </h3>
-          
-          
-                    </div>
-          
-                    
-          
-          
-                  </div>
-          
-          
-                </div>
-          
-          
-          
-          
-          
-          
-            </div>
+                <ul class="product-features d-flex">
 
 
+                <li><span>{{ 'icon-personalized.svg' | asset_url | img_tag }}</span> <span>Personalized</span></li>
+
+                <li><span>{{ 'icon-ultra-premium-fabrics.svg' | asset_url | img_tag }}</span> <span>Ultra Premium Fabrics</span></li>
+
+                <li><span>{{ 'icon-sustainability-made.svg' | asset_url | img_tag }}</span> <span>Sustainability Made</span></li>
+
+                <li><span>{{ 'icon-inclusive-sizing.svg' | asset_url | img_tag }}</span> <span>Inclusive sizing</span></li>
+
+
+
+                </ul>
 
 
               
