@@ -252,8 +252,10 @@
     width: 100%!important;
 }
 
-.shopify-cleanslate .jjzYeefyWpPZLH9pIgyw{ min-height: 5.6rem;}
-
+[data-shopify="payment-button"] div:nth-child(2) {
+  min-height: 56px;
+  line-height: 56px;
+}
 @media screen and (min-width: 750px){
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
 }
