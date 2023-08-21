@@ -19,6 +19,8 @@ color: var(--super-cute-black, #121314);
 font-size: 1.6rem; font-family: 'Manrope', sans-serif;
 font-size: 2.4rem;
 font-style: normal;
+clear: both;
+    margin-bottom: 50px;
 font-weight: 700;
 }
 .card__information .card__heading a{color: var(--super-cute-black, #121314);
@@ -43,5 +45,4 @@ letter-spacing: 0.32px;
 text-transform: uppercase;
   }
 
-  .card__information .price__regular{  color: var(--gray-400, #9E9E94);     clear: both;
-    margin-bottom: 50px; }
+  .card__information .price__regular{  color: var(--gray-400, #9E9E94);      }
