@@ -49,6 +49,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "c80bfa50-bb67-42cb-af59-4de2b291a332": {
+          "type": "heading",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-personalized.svg",
+            "title": "Personalized"
+          }
         }
       },
       "block_order": [
@@ -59,7 +66,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "c80bfa50-bb67-42cb-af59-4de2b291a332"
       ],
       "settings": {
         "enable_sticky_info": true,
