@@ -99,7 +99,9 @@
 
 .w-mob-50{ width: 100%;}
 
-.my-32{ margin: 32px 0;}
+.my-32{ margin: 32px 0!important;}
+
+.mr-8{ margin-right: 8px;}
 
 @media(min-width:768px){
 
