@@ -21,6 +21,20 @@
           "settings": {
           }
         },
+        "c80bfa50-bb67-42cb-af59-4de2b291a332": {
+          "type": "heading",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-personalized.svg",
+            "title": "Personalized"
+          }
+        },
+        "b0ce124e-5ac0-443f-89fb-258519d67911": {
+          "type": "heading",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-ultra-premium-fabrics.svg",
+            "title": "Ultra Premium Fabrics"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -50,18 +64,11 @@
             "share_label": "Share"
           }
         },
-        "c80bfa50-bb67-42cb-af59-4de2b291a332": {
+        "7217faf2-3c61-4d9a-b88b-a153f00e2dad": {
           "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-personalized.svg",
-            "title": "Personalized"
-          }
-        },
-        "b0ce124e-5ac0-443f-89fb-258519d67911": {
-          "type": "heading",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icon-ultra-premium-fabrics.svg",
-            "title": "Ultra Premium Fabrics"
+            "image": "shopify:\/\/shop_images\/icon-sustainability-made.svg",
+            "title": "Sustainability Made"
           }
         }
       },
@@ -69,13 +76,14 @@
         "vendor",
         "title",
         "price",
+        "c80bfa50-bb67-42cb-af59-4de2b291a332",
+        "b0ce124e-5ac0-443f-89fb-258519d67911",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
-        "c80bfa50-bb67-42cb-af59-4de2b291a332",
-        "b0ce124e-5ac0-443f-89fb-258519d67911"
+        "7217faf2-3c61-4d9a-b88b-a153f00e2dad"
       ],
       "settings": {
         "enable_sticky_info": true,
