@@ -11,6 +11,9 @@
 .card__information .d-flex{ display: block; text-align: center;   
 }
 
+.arrow-right img{    width: 9px;
+  margin: 0 3px;}
+
 .related-products__heading {
 color: var(--super-cute-black, #121314);
 font-size: 1.6rem; font-family: 'Manrope', sans-serif;
