@@ -43,4 +43,5 @@ letter-spacing: 0.32px;
 text-transform: uppercase;
   }
 
-  .card__information .price__regular{  color: var(--gray-400, #9E9E94); }
+  .card__information .price__regular{  color: var(--gray-400, #9E9E94);     clear: both;
+    margin-bottom: 50px; }
