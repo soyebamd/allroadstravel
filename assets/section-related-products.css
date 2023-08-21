@@ -7,4 +7,4 @@
 }
 
 
-.related-products .card--card, .related-products .card--standard .card__inner{ background-color: transparent!important;}
+.related-products .card--card, .related-products .card--standard .card__inner, .related-products .shadow{ background-color: transparent;}
