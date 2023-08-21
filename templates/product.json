@@ -56,6 +56,13 @@
             "image": "shopify:\/\/shop_images\/icon-personalized.svg",
             "title": "Personalized"
           }
+        },
+        "b0ce124e-5ac0-443f-89fb-258519d67911": {
+          "type": "heading",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-ultra-premium-fabrics.svg",
+            "title": "Ultra Premium Fabrics"
+          }
         }
       },
       "block_order": [
@@ -67,7 +74,8 @@
         "buy_buttons",
         "description",
         "share",
-        "c80bfa50-bb67-42cb-af59-4de2b291a332"
+        "c80bfa50-bb67-42cb-af59-4de2b291a332",
+        "b0ce124e-5ac0-443f-89fb-258519d67911"
       ],
       "settings": {
         "enable_sticky_info": true,
