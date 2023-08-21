@@ -261,6 +261,15 @@
   list-style: disc;
 }
 
+.rte table td {
+ 
+  vertical-align: top;
+}
+
+.product__description * {
+  font-size: 1.4rem; color:#121314;
+}
+
 @media screen and (min-width: 750px){
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
 }
