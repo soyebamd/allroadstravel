@@ -115,15 +115,20 @@
           
                   <div class="info-wrapper">
           
-                    <div class="img-wrapper">
+                    <div class="img-wrapper d-flex">
           
                       {{- block.settings.image | img_url: 'medium' | img_tag -}}
+
+                      <h3>
+                      
+                      {{- block.settings.title -}}
+                      
+                    </h3>
           
           
                     </div>
           
-                    <h3>
-                      {{- block.settings.title -}}</h3>
+                    
           
           
                   </div>
