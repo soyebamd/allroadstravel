@@ -1,0 +1,58 @@
+<style>
+
+  .line {
+    background-color: {{  section.settings.color_scheme  }};
+  }
+
+  .line hr {
+    margin: {{ section.settings.line_height }} 0rem;
+  }
+</style>
+
+<div class="line">
+
+  <hr>
+
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Line break",
+    "tag": "section",
+    "class": "section feature-blocks",
+    "settings": [
+
+      {
+        "type": "range",
+        "id": "line_height",
+        "label": "Line height",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "info": "Line hight",
+        "default": 1
+      }, {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "info": "t:sections.all.colors.has_cards_info",
+        "default": "background-1"
+      }
+
+    ],
+
+
+
+    "presets": [
+      {
+        "name": "Line Break"
+
+      }
+    ]
+
+
+
+  }
+{% endschema %}
