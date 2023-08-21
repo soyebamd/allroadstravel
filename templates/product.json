@@ -79,7 +79,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 72,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "related-products": {
@@ -89,7 +89,7 @@
         "heading_size": "h2",
         "products_to_show": 3,
         "columns_desktop": 3,
-        "color_scheme": "scheme-5d1a0753-5dcc-48db-83db-849eb5af2bf1",
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
