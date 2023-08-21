@@ -103,10 +103,45 @@
               </div>
 
 
+                  
+            {%- when 'heading' -%}
+
+
+              <div class="grid grid--1-col grid--2-col-desktop text-center">
+
+            
+                <div class="grid__item ">
+          
+          
+                  <div class="info-wrapper">
+          
+                    <div class="img-wrapper">
+          
+                      {{- block.settings.image | img_url: 'medium' | img_tag -}}
+          
+          
+                    </div>
+          
+                    <h3>
+                      {{- block.settings.title -}}</h3>
+          
+          
+                  </div>
+          
+          
+                </div>
+          
+          
+          
+          
+          
+          
+            </div>
+
+
+
+
               
-
-
-
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
