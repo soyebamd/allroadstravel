@@ -21,32 +21,9 @@
           "settings": {
           }
         },
-        "c80bfa50-bb67-42cb-af59-4de2b291a332": {
-          "type": "heading",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icon-personalized.svg",
-            "title": "Personalized"
-          }
-        },
-        "b0ce124e-5ac0-443f-89fb-258519d67911": {
-          "type": "heading",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icon-ultra-premium-fabrics.svg",
-            "title": "Ultra Premium Fabrics"
-          }
-        },
-        "7217faf2-3c61-4d9a-b88b-a153f00e2dad": {
-          "type": "heading",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icon-sustainability-made.svg",
-            "title": "Sustainability Made"
-          }
-        },
         "ef660a0b-1ca8-44a9-843c-4662e293ba13": {
           "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-inclusive-sizing.svg",
-            "title": "Inclusive sizing"
           }
         },
         "variant_picker": {
@@ -83,9 +60,6 @@
         "vendor",
         "title",
         "price",
-        "c80bfa50-bb67-42cb-af59-4de2b291a332",
-        "b0ce124e-5ac0-443f-89fb-258519d67911",
-        "7217faf2-3c61-4d9a-b88b-a153f00e2dad",
         "ef660a0b-1ca8-44a9-843c-4662e293ba13",
         "variant_picker",
         "quantity_selector",
