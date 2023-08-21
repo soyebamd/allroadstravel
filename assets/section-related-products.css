@@ -5,3 +5,6 @@
 .related-products__heading {
   margin: 0 0 3rem;
 }
+
+
+.related-products .card--card, .related-products .card--standard .card__inner{ background-color: transparent!important;}
