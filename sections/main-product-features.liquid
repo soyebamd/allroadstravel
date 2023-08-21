@@ -1,0 +1,89 @@
+<div class="page-width">
+  <div class="grid grid--1-col grid--2-col-desktop text-center">
+
+    {%- for block in section.blocks -%}
+      <div class="grid__item ">
+
+
+        <div class="info-wrapper">
+
+          <div class="img-wrapper">
+
+            {{- block.settings.image | img_url: 'medium' | img_tag -}}
+
+
+          </div>
+
+          <h3>
+            {{- block.settings.title -}}</h3>
+
+
+        </div>
+
+
+      </div>
+
+    {%- endfor -%}
+
+
+
+  </div>
+
+
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Information Block",
+    "tag": "section",
+    "class": "section info-blocks",
+    "settings": [
+
+      {
+        "type": "header",
+        "content": "Info Blocks"
+      }
+
+    ],
+
+    "blocks": [
+
+      {
+
+        "type": "heading",
+        "name": "Blocks",
+        "limit": 6,
+
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Select Icon/Image"
+          }, {
+            "type": "text",
+            "id": "title",
+
+            "label": "Title"
+          }
+
+        ]
+
+
+
+      }
+
+    ],
+
+    "presets": [
+      {
+        "name": "Info Blocks"
+
+      }
+    ]
+
+
+
+  }
+{% endschema %}
