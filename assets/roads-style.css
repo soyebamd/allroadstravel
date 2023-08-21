@@ -239,7 +239,7 @@
 } 
 
 
-.product-features-list li{ line-height: 2.8rem; }
+.product-features-list li{ line-height: 2.8rem; margin: 0 0 8px; }
 
 .product-features-list li img{ vertical-align: middle;}
 
