@@ -224,6 +224,23 @@
 .product__info-container .single-main-price{  font-weight: 500; font-family: 'Poppins', sans-serif;}
 
 .product__info-container  .price__regular{color:#121314;} 
+
+
+.product-features-list{ }
+
+
+.product-features-list ul{    list-style: none;
+  margin: 0;
+  padding: 0;
+} 
+
+
+.product-features-list ul li{ }
+
+.product-features-list ul li img{ vertical-align: middle;}
+
+
+
 @media screen and (min-width: 750px){
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
 }
