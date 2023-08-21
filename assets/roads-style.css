@@ -229,15 +229,15 @@
 .product-features-list{ }
 
 
-.product-features-list ul{    list-style: none;
+.product-features-list {    list-style: none;
   margin: 0;
   padding: 0;
 } 
 
 
-.product-features-list ul li{ }
+.product-features-list li{ }
 
-.product-features-list ul li img{ vertical-align: middle;}
+.product-features-list li img{ vertical-align: middle;}
 
 
 
