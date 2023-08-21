@@ -11,12 +11,12 @@
 
 /* change related product card__information  */
 
-.card__information .d-flex{ display: block; text-align: center;   font-size: 1.6rem; font-family: 'Manrope', sans-serif;
+.card__information .d-flex{ display: block; text-align: center;   
 }
 
 .related-products__heading {
 color: var(--super-cute-black, #121314);
-
+font-size: 1.6rem; font-family: 'Manrope', sans-serif;
 font-size: 2.4rem;
 font-style: normal;
 font-weight: 700;
@@ -24,7 +24,7 @@ font-weight: 700;
 .card__information .card__heading a{color: var(--super-cute-black, #121314);
   text-align: center;
 
- 
+  font-size: 1.6rem; font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 2.4rem;
@@ -36,7 +36,7 @@ font-weight: 700;
     color: var(--gray-400, #9E9E94);
 text-align: center;
 
-
+font-size: 1.6rem; font-family: 'Manrope', sans-serif;
 font-style: normal;
 font-weight: 500;
 letter-spacing: 0.32px;
