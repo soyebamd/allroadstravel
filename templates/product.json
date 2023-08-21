@@ -82,6 +82,13 @@
         "padding_bottom": 80
       }
     },
+    "8c8340de-6385-4dac-a7ef-58fea2f855c0": {
+      "type": "line-break",
+      "settings": {
+        "line_height": 1,
+        "color_scheme": "scheme-3390ad87-193c-45e3-a9ea-844a96ce04e5"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -103,6 +110,7 @@
   },
   "order": [
     "main",
+    "8c8340de-6385-4dac-a7ef-58fea2f855c0",
     "related-products"
   ]
 }
