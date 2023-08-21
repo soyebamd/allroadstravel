@@ -93,6 +93,18 @@
 
 .align-items-center{    align-items: center; }
 
+.flex-wrap{flex-wrap: wrap;}
+
+.w-50{ width:50%; }
+
+.w-mob-50{ width: 100%;}
+
+@media(min-width:768px){
+
+  .w-mob-50{ width: 50%;}
+
+}
+
 .pb-24{ padding-bottom: 24px;}
 
 /*Collection list banner*/

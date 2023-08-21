@@ -107,16 +107,16 @@
             {%- when 'heading' -%}
 
 
-                <ul class="product-features d-flex">
+                <ul class="product-features d-flex flex-wrap">
 
 
-                <li><span>{{ 'icon-personalized.svg' | asset_url | img_tag }}</span> <span>Personalized</span></li>
+                <li class="w-mob-50"><span>{{ 'icon-personalized.svg' | asset_url | img_tag }}</span> <span>Personalized</span></li>
 
-                <li><span>{{ 'icon-ultra-premium-fabrics.svg' | asset_url | img_tag }}</span> <span>Ultra Premium Fabrics</span></li>
+                <li class="w-mob-50"><span>{{ 'icon-ultra-premium-fabrics.svg' | asset_url | img_tag }}</span> <span>Ultra Premium Fabrics</span></li>
 
-                <li><span>{{ 'icon-sustainability-made.svg' | asset_url | img_tag }}</span> <span>Sustainability Made</span></li>
+                <li class="w-mob-50"><span>{{ 'icon-sustainability-made.svg' | asset_url | img_tag }}</span> <span>Sustainability Made</span></li>
 
-                <li><span>{{ 'icon-inclusive-sizing.svg' | asset_url | img_tag }}</span> <span>Inclusive sizing</span></li>
+                <li class="w-mob-50"><span>{{ 'icon-inclusive-sizing.svg' | asset_url | img_tag }}</span> <span>Inclusive sizing</span></li>
 
 
 
@@ -757,7 +757,7 @@
 
 "type": "heading",
 "name": "Product Feature Blocks",
-"limit": 6
+"limit": 1
 
 
 
