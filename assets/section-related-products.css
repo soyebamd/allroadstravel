@@ -13,7 +13,7 @@
 
 .card__information .d-flex{ display: block; text-align: center;}
 
-.card__heading{color: var(--super-cute-black, #121314);
+.related-products .card__heading{color: var(--super-cute-black, #121314);
   text-align: center;
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
@@ -24,7 +24,7 @@
   text-transform: uppercase;}
 
 
-  .price{
+  .related-products .price{
     color: var(--gray-400, #9E9E94);
 text-align: center;
 font-family: Manrope;
