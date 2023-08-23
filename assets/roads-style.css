@@ -120,13 +120,15 @@
 
     text-decoration: none;
     text-align: var(--text-alignment);
-    padding: 1.6rem 1.4rem;
+    padding: 0.8rem;
     border: 1px solid var(--gray-400, #9E9E94);
     background: #030303;
   
     text-align: center;
   
   }
+
+
 
 
   .card-collection-list .card__media{
@@ -274,6 +276,13 @@
 }
 
 @media screen and (min-width: 750px){
+
+  .card-collection-list .card {
+
+    padding: 1.6rem 1.4rem;
+  }
+
+
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
 }
 
