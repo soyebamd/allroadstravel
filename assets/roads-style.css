@@ -210,6 +210,9 @@
 }
 
 @media screen and (max-width:750px) {
+
+  .section-template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69-padding{ padding-top: 2.5rem;}
+
 .footer-main{ display: block;}
 
 .footer-main__logo{ width:100%; }
@@ -284,18 +287,19 @@
 
 
 .product__info-container .single-main-price{ font-size: 4rem!important;   line-height: 6rem!important;}
+
+
+
+
+.card-collection-list   .card__information {
+  padding-bottom: 0;
+  padding-top: 1.5rem;
 }
 
-@media screen and (min-width: 750px) {
+
+}
 
 
-
-
-    .card-collection-list   .card__information {
-      padding-bottom: 0;
-      padding-top: 1.5rem;
-    }
-  }
 
 
 
