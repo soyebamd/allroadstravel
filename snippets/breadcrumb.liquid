@@ -15,7 +15,7 @@
 
   }
 
-  .breadcrumbs__item.title{ color: #121314; }
+  .breadcrumbs__item.breadcrumbtitle{ color: #121314; }
 
   .breadcrumbs__list {
     list-style-type: none;
@@ -79,7 +79,7 @@
         {{ collection.title | link_to: collection.url }}{% if collectionSize > 1 %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
     </li>
 
-    <li class="breadcrumbs__item title">
+    <li class="breadcrumbs__item breadcrumbtitle">
       {{ product.title }}
     </li>
 
