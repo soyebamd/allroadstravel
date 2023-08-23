@@ -166,6 +166,9 @@
 
 .card__content h3.card__heading, .price { font-size: 1.6rem; font-family: 'Poppins', sans-serif; font-weight: 800; line-height: 2.2rem!important; }
 
+
+#menu-drawer{ background-color: #000;}
+
 .price__regular{ color:#2DCDD5; }
 
 
