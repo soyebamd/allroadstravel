@@ -36,6 +36,16 @@
    transition: all 600ms;
 }
 
+@media(max-width:570px){
+
+  .button {
+    width: auto;
+    min-width: 227px;
+    min-height: 52px;}
+
+
+}
+
 /*remove button animation*/
 
 .button .arrow{ display:none; }
