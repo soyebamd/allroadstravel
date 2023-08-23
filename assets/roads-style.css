@@ -38,6 +38,7 @@
 
 
 
+
 @media(max-width:640px){
 
 
@@ -113,7 +114,10 @@
 
 }
 
+
 .img-fluid{ max-width: 100%;}
+
+
 
 
 /*flex*/
@@ -263,6 +267,8 @@
 
 
 }
+
+.product-grid{ margin:0;}
   
 .product__info-container .single-main-price{  font-weight: 500; font-family: 'Poppins', sans-serif;}
 
