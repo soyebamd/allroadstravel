@@ -43,9 +43,9 @@
     min-width: 227px;
     min-height: 52px;}
 
-    .card__information .flex{ flex-wrap: wrap;}
+    .card__information .d-flex{ flex-wrap: wrap;}
 
-    .card__information .flex div{ width: 100%; margin: 6px 0;}
+    .card__information .d-flex div{ width: 100%; margin: 6px 0;}
 
 
 }
