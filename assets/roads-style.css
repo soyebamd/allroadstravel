@@ -36,6 +36,10 @@
    transition: all 600ms;
 }
 
+/*remove button animation*/
+
+.button .arrow{ display:none; }
+
 
 .button:after{ box-shadow: none!important;}
 
@@ -45,9 +49,9 @@
 
 .button-text{
 
-    margin-left: -20px;
+   /* margin-left: -20px; */
     background: black;
-    padding-left: 10px;
+   /* padding-left: 10px; */
     transition: all 600ms;
     z-index: 9;
 
