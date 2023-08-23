@@ -31,6 +31,11 @@
     padding: 0 4px;
   }
 
+  
+  .breadcrumb  {
+    color: #B6B6AF;
+  }
+
   .breadcrumb a {
     color: #B6B6AF;
     text-decoration: none;
@@ -70,12 +75,7 @@
       {% assign collectionSize = collection.size %}
 
       {% for collection in collection %}
-        {{ collection.title | link_to: collection.url }}{% if collectionSize > 1 %}
-          {% unless forloop.last and collectionSize > 1 %},
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-      <span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
+        {{ collection.title | link_to: collection.url }}{% if collectionSize > 1 %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
     </li>
 
     <li class="breadcrumbs__item">
