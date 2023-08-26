@@ -204,9 +204,9 @@
 .price__regular{ color:#2DCDD5; }
 
 
-.footer-main__logo{ width: 30%;}
+.footer-main__logo{ width: 20%;}
 
-.footer-main__menu{    width: 70%; }
+.footer-main__menu{    width: auto; }
 
 .footer-main__menu ul{     display: flex;
   justify-content: end; }
