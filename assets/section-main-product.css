@@ -403,6 +403,7 @@ a.product__text {
 }
 
 .product__description-title {
+  margin-top: 2rem;
   font-weight: 600;
 }
 
