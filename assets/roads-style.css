@@ -178,6 +178,8 @@
 
 /*Component Card*/
 
+.facets-vertical-form{ margin:20px 0; }
+
 .card--card, .card--standard .card__inner{    background: #f7f6ef; }
 
 .shadow {
