@@ -120,11 +120,29 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "144d7ef9bea11360b9686cd5e485546b": {
+      "type": "apps",
+      "blocks": {
+        "e0e312f7e9897b70d8f556690780f0ff": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzY=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "e0e312f7e9897b70d8f556690780f0ff"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
     "190d7767-a135-4f2a-a317-26e567fe5f69",
-    "featured_collection"
+    "featured_collection",
+    "144d7ef9bea11360b9686cd5e485546b"
   ]
 }
