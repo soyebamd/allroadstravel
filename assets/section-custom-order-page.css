@@ -1,8 +1,11 @@
 .step:after {
-    content: 'Contact';
+    content: '';
     color: #000;
     font-size: 16px;
     font-family: monospace;
     font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
+
+.step:first-child:after {
+    content: 'Contact';}
