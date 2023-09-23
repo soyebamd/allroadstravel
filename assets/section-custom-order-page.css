@@ -9,3 +9,9 @@
 
 .step:first-child:after {
     content: 'Contact';}
+
+.step:nth-child(2):after {
+    content: 'Design';}
+
+.step:last-child:after {
+    content: 'Artwork';}
