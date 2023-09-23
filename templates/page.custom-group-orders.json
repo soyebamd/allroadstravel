@@ -1,10 +1,8 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "custom-group-orders",
       "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     }
   },
