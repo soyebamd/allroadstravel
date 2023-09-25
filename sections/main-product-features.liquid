@@ -1,0 +1,114 @@
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+      padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+    }
+  
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+    <div class="section-{{ section.id }}-padding">
+  
+  <div class="page-width">
+  <div class="grid grid--1-col grid--2-col-desktop text-center">
+
+    {%- for block in section.blocks -%}
+      <div class="grid__item ">
+
+
+        <div class="info-wrapper">
+
+          <div class="img-wrapper">
+
+            {{- block.settings.image | img_url: 'medium' | img_tag -}}
+
+
+          </div>
+
+          <h3>
+            {{- block.settings.title -}}</h3>
+
+
+        </div>
+
+
+      </div>
+
+
+
+    {%- endfor -%}
+
+
+
+  </div>
+
+
+
+  </div>
+
+  </div>
+
+  
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Feature Block",
+    "tag": "section",
+    "class": "section feature-blocks",
+    "settings": [
+
+      {
+        "type": "header",
+        "content": "Product Feature Blocks"
+      }
+
+    ],
+
+    "blocks": [
+
+      {
+
+        "type": "heading",
+        "name": "Blocks",
+        "limit": 6,
+
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Select Icon/Image"
+          }, {
+            "type": "text",
+            "id": "title",
+
+            "label": "Title"
+          }
+
+        ]
+
+
+
+      }
+
+    ],
+
+    "presets": [
+      {
+        "name": "Info Blocks"
+
+      }
+    ]
+
+
+
+  }
+{% endschema %}

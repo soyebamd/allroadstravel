@@ -1,0 +1,89 @@
+<style>
+
+
+  .breadcrumb {
+
+    padding: 0 0 3.2rem;
+    margin-bottom: 6.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: #121314;
+    border-bottom: solid 1px #B6B6AF;
+
+
+
+  }
+
+  .breadcrumbs__item.breadcrumbtitle{ color: #121314; }
+
+  .breadcrumbs__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .breadcrumbs__item {
+    display: inline-block;
+
+  }
+
+  .breadcrumb span {
+    padding: 0 4px;
+  }
+
+  
+  .breadcrumb  {
+    color: #B6B6AF;
+  }
+
+  .breadcrumb a {
+    color: #B6B6AF;
+    text-decoration: none;
+  }
+
+  .breadcrumb .icon-arrow-right {
+    font-size: 8px;
+    position: relative;
+    top: -1px;
+  }
+
+  .breadcrumb a.ss-icon:hover {
+    color: #0d3ff0;
+  }
+</style>
+
+
+
+<nav
+  class="breadcrumb_text breadcrumb"
+  role="navigation"
+  aria-label="breadcrumbs">
+  <ol class="breadcrumbs__list">
+
+
+    <li class="breadcrumbs__item">
+      <a class="breadcrumbs__link" href="/">Home</a>
+
+      <span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
+
+
+    </li>
+    <li class="breadcrumbs__item">
+
+      {% assign collection = product.collections %}
+
+      {% assign collectionSize = collection.size %}
+
+      {% for collection in collection %}
+        {{ collection.title | link_to: collection.url }}{% if collectionSize > 1 %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<span>{{ 'arrow-right.svg' | asset_url | img_tag }}</span>
+    </li>
+
+    <li class="breadcrumbs__item breadcrumbtitle">
+      {{ product.title }}
+    </li>
+
+
+
+  </ol>
+</nav>
