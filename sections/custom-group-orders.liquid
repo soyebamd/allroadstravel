@@ -8,7 +8,7 @@
     opacity: 1;
   }
   .hideScreen {
-    display: none !important;
+    opacity: 0 !important;
     height: 0;
   }
 
@@ -120,7 +120,7 @@
       if (screen.classList.contains('hideScreen')) {
 
         screen.classList.remove('hideScreen');
-        this.classList.add('hideScreen');
+        this.style.display = 'none';
 
 
 
