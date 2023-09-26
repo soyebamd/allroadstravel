@@ -36,8 +36,8 @@
 </div>
 
 
-<a href="#" class="button button--primary">
-                                         <span class="arrow"> {{ 'arrow.svg'  | asset_url | img_tag }}  </span>       <span class="button-text">Shop Collection Now</span>
+<a href="#" class="button button--primary" id="startBtn">
+           <span class="arrow"> {{ 'arrow.svg'  | asset_url | img_tag }}  </span>       <span class="button-text">Start Now</span>
                 </a>
 
 
@@ -46,8 +46,26 @@
 
 <div class="grid__item">
 
-<div class="globo-formbuilder" data-id="MTUzMzY="></div>
+<div id="screen-1">
 
+
+<ul>
+
+  <li><p>Complete this form and tell us about your group, your design ideas and your travel dates.</p></li>
+
+  <li><p>We will create your design on the shirt style and color you choose and send mockups to you for approval or edits.</p></li>
+
+  <li><p>Once approved, we will create a unique order page for your group. You will be able to place either a bulk order for your group or have each traveler purchase individually.</p></li>
+
+</ul>
+
+
+</div>
+
+
+<div id="screen-2" class="hidden">
+<div class="globo-formbuilder" data-id="MTUzMzY="></div>
+</div>
 </div>
 
 
@@ -90,3 +108,7 @@
   ]
 }
 {% endschema %}
+
+{% javascript %}
+  console.log('works');
+{% endjavascript %}
