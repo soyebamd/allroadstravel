@@ -64,7 +64,7 @@
 </div>
 
 
-<div id="screen-2" class="screen hideScreen">
+<div id="screen-2">
 
 </div>
 </div>
@@ -113,6 +113,8 @@
 
 
 {% javascript %}
+
+function ss(){
  const startBtn = document.querySelector('#startBtn');
 
  const screens = document.querySelectorAll('.screen');
@@ -133,10 +135,13 @@ formBuilder.setAttribute("data-id", "MTUzMzY=");
 
 screen_2.appendChild(formBuilder);
 
+}
 
 
 
  startBtn.addEventListener('click', function(){
+
+ ss();
 
  screens.forEach(screen=>{ 
   
