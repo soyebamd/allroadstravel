@@ -4,6 +4,7 @@
 
 {%- style -%}
 
+.hideScreen{ display:none!important; }
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -46,7 +47,7 @@
 
 <div class="grid__item">
 
-<div id="screen-1">
+<div id="screen-1" class="screen">
 
 
 <ul>
@@ -63,7 +64,7 @@
 </div>
 
 
-<div id="screen-2">
+<div id="screen-2" class="screen hideScreen">
 
 </div>
 </div>
@@ -109,9 +110,7 @@
 }
 {% endschema %}
 
-{% style %}
-  .hideScreen{ display:none!important; }
-{% endstyle %}
+
 
 {% javascript %}
  const startBtn = document.querySelector('#startBtn');
@@ -129,6 +128,8 @@ formBuilder.className = 'globo-formbuilder'; // Use className instead of class
 //formBuilder.textContent = "sdf";
 
 formBuilder.setAttribute("data-id", "MTUzMzY=");
+
+
 
 screen_2.appendChild(formBuilder);
 
