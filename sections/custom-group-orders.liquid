@@ -62,8 +62,10 @@
 
 </div>
 
-<div class="" data-id="MTUzMzY="></div>
 
+<div id="screen-2">
+
+</div>
 </div>
 
 
@@ -122,7 +124,17 @@
   
  if(screen.classList.contains('hideScreen')){
 
-  screen.classList.remove('hideScreen')
+  screen.classList.remove('hideScreen');
+
+const screen_2 = document.querySelector('#screen-2');
+
+const formBuilder = document.createElement('div');
+
+formBuilder.className = 'globo-formbuilder'; // Use className instead of class
+
+formBuilder.setAttribute("data-id", "MTUzMzY=");
+
+screen_2.appendChild(formBuilder);
 
  }
 
