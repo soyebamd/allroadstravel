@@ -19,18 +19,14 @@
   .globo-form-app .panels {}
 
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
-    px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
-    px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}
-      px;
-      padding-bottom: {{ section.settings.padding_bottom }}
-      px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
@@ -110,33 +106,26 @@
 <script>
 
 
-
-  const screen_2 = document.querySelector('#screen-2');
-
-  const startBtn = document.querySelector('#startBtn');
+const screen_2 = document.querySelector('#screen-2');
 
   const screens = document.querySelectorAll('.screen');
+  const startBtn = document.querySelector('#startBtn');
 
-  startBtn.addEventListener('click', function() {
-
+  function handleScreen() {
     screens.forEach(screen => {
+      screen.classList.toggle('hideScreen');
+      if (screen.id === 'screen-2' && !screen.classList.contains('hideScreen')) {
 
-      if (screen.classList.contains('hideScreen')) {
-
-        screen.classList.remove('hideScreen');
-        this.style.display = 'none';
-
-
-
-      } else {
-        screen.classList.add('hideScreen');
-
+        
+      this.style.display = 'none';
+      
       }
+    });
+  }
+
+  startBtn.addEventListener('click', handleScreen);
 
 
-    })
-
-  })
 </script>
 
 {% schema %}
