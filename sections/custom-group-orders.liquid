@@ -4,20 +4,28 @@
 
 {%- style -%}
 
-.screen{ opacity:1; }
-.hideScreen{ opacity:0!important; }
+  .screen {
+    opacity: 1;
+  }
+  .hideScreen {
+    opacity: 0 !important;
+  }
 
-.globo-form-app .panels{  }
+  .globo-form-app .panels {}
 
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
+    px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
+    px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}
+      px;
+      padding-bottom: {{ section.settings.padding_bottom }}
+      px;
     }
   }
 {%- endstyle -%}
@@ -25,57 +33,69 @@
 <div class="page-width section-{{ section.id }}-padding">
 
 
-<div class="grid grid--1-col grid--2-col-tablet">
+  <div class="grid grid--1-col grid--2-col-tablet">
 
-<div class="grid__item">
-
-
-<h1 class="h2 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-  {{ page.title | escape }}
-</h1>
+    <div class="grid__item">
 
 
-<div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-  {{ page.content }}
-</div>
+      <h1 class="h2 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+        {{ page.title | escape }}
+      </h1>
 
 
-<a href="#" class="button button--primary" id="startBtn">
-           <span class="arrow"> {{ 'arrow.svg'  | asset_url | img_tag }}  </span>       <span class="button-text">Start Now</span>
-                </a>
+      <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ page.content }}
+      </div>
+
+
+      <a
+        href="#"
+        class="button button--primary"
+        id="startBtn">
+        <span class="arrow">
+          {{ 'arrow.svg' | asset_url | img_tag }}
+        </span>
+        <span class="button-text">Start Now</span>
+      </a>
 
 
 
-</div>
+    </div>
 
-<div class="grid__item">
+    <div class="grid__item">
 
-<div id="screen-1" class="screen">
-
-
-<ul>
-
-  <li><p>Complete this form and tell us about your group, your design ideas and your travel dates.</p></li>
-
-  <li><p>We will create your design on the shirt style and color you choose and send mockups to you for approval or edits.</p></li>
-
-  <li><p>Once approved, we will create a unique order page for your group. You will be able to place either a bulk order for your group or have each traveler purchase individually.</p></li>
-
-</ul>
+      <div id="screen-1" class="screen">
 
 
-</div>
+        <ul>
+
+          <li>
+            <p>Complete this form and tell us about your group, your design ideas and your travel dates.</p>
+          </li>
+
+          <li>
+            <p>We will create your design on the shirt style and color you choose and send mockups to you for approval or edits.</p>
+          </li>
+
+          <li>
+            <p>Once approved, we will create a unique order page for your group. You will be able to place either a bulk order for your group or have each traveler purchase individually.</p>
+          </li>
+
+        </ul>
 
 
-<div id="screen-2" class="screen">
-
-<div class="globo-formbuilder" data-id="MTUzMzY="></div>
-
-</div>
-</div>
+      </div>
 
 
-</div>
+      <div id="screen-2" class="screen">
+
+        <div class="globo-formbuilder" data-id="MTUzMzY="></div>
+
+      </div>
+    </div>
+
+
+  </div>
 
 
 
@@ -85,67 +105,64 @@
 <script>
 
 
-  
-const screen_2 = document.querySelector('#screen-2');
 
-const startBtn = document.querySelector('#startBtn');
+  const screen_2 = document.querySelector('#screen-2');
 
-const screens = document.querySelectorAll('.screen');
+  const startBtn = document.querySelector('#startBtn');
 
- startBtn.addEventListener('click', function(){
+  const screens = document.querySelectorAll('.screen');
 
- screen_2.classList.remove('hideScreen');
+  startBtn.addEventListener('click', function() {
 
- screens.forEach(screen=>{ 
-  
- if(screen.classList.contains('hideScreen')){
+    screen_2.classList.remove('hideScreen');
 
-  screen.classList.remove('hideScreen');
+    screens.forEach(screen => {
 
+      if (screen.classList.contains('hideScreen')) {
 
- }
-
- else{ screen.classList.add('hideScreen') }
+        screen.classList.remove('hideScreen');
+        screen.classList.add('screen');
 
 
-})
+      } else {
+        screen.classList.add('hideScreen');
+        screen.classList.remove('screen');
+      }
 
- })
 
+    })
 
-
+  })
 </script>
 
 {% schema %}
-{
-  "name": "Custom Group Order",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
-  ]
-}
+  {
+    "name": "Custom Group Order",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ]
+  }
 {% endschema %}
