@@ -63,7 +63,7 @@
 </div>
 
 
-<div id="screen-2" class="hidden screen">
+<div id="screen-2" class="hideScreen screen">
 <div class="globo-formbuilder" data-id="MTUzMzY="></div>
 </div>
 </div>
@@ -109,6 +109,10 @@
 }
 {% endschema %}
 
+{% style %}
+  .hideScreen{ display:none!important; }
+{% endstyle %}
+
 {% javascript %}
  const startBtn = document.querySelector('#startBtn');
 
@@ -118,13 +122,13 @@
 
  screens.forEach(screen=>{ 
   
- if(screen.classList.contains('hidden')){
+ if(screen.classList.contains('hideScreen')){
 
-  screen.classList.remove('hidden')
+  screen.classList.remove('hideScreen')
 
  }
 
- else{ screen.classList.add('hidden') }
+ else{ screen.classList.add('hideScreen') }
 
 
 })
