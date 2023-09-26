@@ -4,7 +4,8 @@
 
 {%- style -%}
 
-.hideScreen{ display:none!important; }
+.screen{ opacity:1; }
+.hideScreen{ opacity:0!important; }
 
 .globo-form-app .panels{ min-height:333px!important; }
 
@@ -66,7 +67,9 @@
 </div>
 
 
-<div id="screen-2">
+<div id="screen-2" class="screen">
+
+<div class="globo-formbuilder" data-id="MTUzMzY="></div>
 
 </div>
 </div>
@@ -85,30 +88,9 @@
   
 const screen_2 = document.querySelector('#screen-2');
 
+const startBtn = document.querySelector('#startBtn');
 
- const startBtn = document.querySelector('#startBtn');
-
- const screens = document.querySelectorAll('.screen');
-
-
- 
-const formBuilder = document.createElement('div');
-
-formBuilder.className = 'globo-formbuilder'; // Use className instead of class
-
-//formBuilder.textContent = "sdf";
-
-formBuilder.setAttribute("data-id", "MTUzMzY=");
-
-
-
-screen_2.appendChild(formBuilder);
-
-screen_2.classList.add('hideScreen');
-
-
-
-
+const screens = document.querySelectorAll('.screen');
 
  startBtn.addEventListener('click', function(){
 
