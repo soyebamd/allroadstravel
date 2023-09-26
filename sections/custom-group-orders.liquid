@@ -135,13 +135,15 @@ formBuilder.setAttribute("data-id", "MTUzMzY=");
 
 screen_2.appendChild(formBuilder);
 
+screen_2.classList.add('hideScreen');
+
 }
 
 ss();
 
  startBtn.addEventListener('click', function(){
 
-
+ screen_2.classList.remove('hideScreen');
 
  screens.forEach(screen=>{ 
   
