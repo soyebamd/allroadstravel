@@ -118,6 +118,23 @@
 
  const screens = document.querySelectorAll('.screen');
 
+
+ 
+const screen_2 = document.querySelector('#screen-2');
+
+const formBuilder = document.createElement('div');
+
+//formBuilder.className = 'globo-formbuilder'; // Use className instead of class
+
+formBuilder.textContent = "sdf";
+
+//formBuilder.setAttribute("data-id", "MTUzMzY=");
+
+screen_2.appendChild(formBuilder);
+
+
+
+
  startBtn.addEventListener('click', function(){
 
  screens.forEach(screen=>{ 
@@ -126,17 +143,6 @@
 
   screen.classList.remove('hideScreen');
 
-const screen_2 = document.querySelector('#screen-2');
-
-const formBuilder = document.createElement('div');
-
-formBuilder.className = 'globo-formbuilder'; // Use className instead of class
-
-formBuilder.textContent = "sdf";
-
-//formBuilder.setAttribute("data-id", "MTUzMzY=");
-
-screen_2.appendChild(formBuilder);
 
  }
 
