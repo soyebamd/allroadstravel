@@ -46,7 +46,7 @@
 
 <div class="grid__item">
 
-<div id="screen-1">
+<div id="screen-1" class="screen">
 
 
 <ul>
@@ -63,7 +63,7 @@
 </div>
 
 
-<div id="screen-2" class="hidden">
+<div id="screen-2" class="hidden screen">
 <div class="globo-formbuilder" data-id="MTUzMzY="></div>
 </div>
 </div>
@@ -110,5 +110,14 @@
 {% endschema %}
 
 {% javascript %}
-  console.log('works');
+ const startBtn = document.querySelector('#startBtn');
+
+ const screens = document.querySelectorAll('.screen');
+
+ startBtn.addEventListener('click', function(){
+
+ screens.map(screen=>{ console.log(screen.getAttribute('id'))})
+
+ })
+
 {% endjavascript %}
