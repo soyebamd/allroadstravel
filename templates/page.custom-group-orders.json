@@ -3,6 +3,8 @@
     "main": {
       "type": "custom-group-orders",
       "settings": {
+        "padding_top": 48,
+        "padding_bottom": 80
       }
     }
   },
