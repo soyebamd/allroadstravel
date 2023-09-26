@@ -4,9 +4,11 @@
 
 {%- style -%}
 
-
+  .screen {
+    opacity: 1;
+  }
   .hideScreen {
-    display: none !important;
+    opacity: 0 !important;
   }
 
   .globo-form-app .panels {}
@@ -111,8 +113,6 @@
   const screens = document.querySelectorAll('.screen');
 
   startBtn.addEventListener('click', function() {
-
-
 
     screens.forEach(screen => {
 
