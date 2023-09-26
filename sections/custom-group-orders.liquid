@@ -116,7 +116,18 @@
 
  startBtn.addEventListener('click', function(){
 
- screens.forEach(screen=>{ console.log(screen.classList.contains('hidden'))})
+ screens.forEach(screen=>{ 
+  
+ if(screen.classList.contains('hidden')){
+
+  screen.classList.remove('hidden')
+
+ }
+
+ else{ screen.classList.add('hidden') }
+
+
+})
 
  })
 
