@@ -222,25 +222,28 @@ textarea.classic-input { max-width:100%; }
 
 <script>
 
-document.addEventListener('DOMContentLoaded', ()=>{
+// Wait for the document to fully load
+document.addEventListener("DOMContentLoaded", function() {
+  // Find the '.globo-formbuilder' element by its data-id attribute
+  const globoFormbuilder = document.querySelector('.globo-formbuilder[data-id="MTUzMzY="]');
 
-const btnaction  = document.querySelectorAll('.globo-formbuilder .globo-form');
+  if (globoFormbuilder) {
+    // Use querySelector to find the '.action' element within the '.globo-formbuilder'
+    const actionElement = globoFormbuilder.querySelector('.movingIn');
 
-console.log(btnaction);
+    if (actionElement) {
+      // You can now access and manipulate 'actionElement'
+      console.log(actionElement);
+    } else {
+      console.error("Element with class '.action' not found inside '.globo-formbuilder'");
+    }
+  } else {
+    console.error("Element with data-id 'MTUzMzY=' not found");
+  }
+});
 
 
-btnaction.forEach((btn)=> 
 
-btn.addEventListener('click', function(){ console.log(this)})
-
-);
-
-{% comment %} 
-const currentSlider = document.querySelector('.movingIn');
-  
-  console.log(currentSlider.clientHeight); {% endcomment %}
-
- })
 
 const screen_2 = document.querySelector('#screen-2');
 
