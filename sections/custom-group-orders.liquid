@@ -224,6 +224,11 @@ textarea.classic-input { max-width:100%; }
 
 document.addEventListener('DOMContentLoaded', ()=>{
 
+const btnaction  = document.querySelectorAll('.action')
+
+btnaction.forEach((btn)=> console.log(this));
+
+
 const currentSlider = document.querySelector('.movingIn');
   
   console.log(currentSlider.clientHeight);
