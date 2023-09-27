@@ -1,0 +1,15 @@
+{
+    "sections": {
+      "main": {
+        "type": "thankyou-page",
+        "settings": {
+          "padding_top": 100,
+          "padding_bottom": 100
+        }
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }
+  
