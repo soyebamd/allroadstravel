@@ -141,6 +141,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "17135229265405203036": {
+        "type": "shopify:\/\/apps\/quick-banner\/blocks\/quickBanner\/3421d53e-fb02-449c-a9ef-daf28f28450a",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
