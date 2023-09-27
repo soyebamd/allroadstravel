@@ -1,7 +1,7 @@
 {
     "sections": {
       "main": {
-        "type": "main",
+        "type": "thank-you",
         "settings": {
           "padding_top": 100,
           "padding_bottom": 100
