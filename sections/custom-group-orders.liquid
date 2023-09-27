@@ -17,7 +17,7 @@
     display: inline-block !important;
   }
 
-  .globo-form-app .panels { min-height:358px} 
+  /* .globo-form-app .panels { min-height:358px}  */
 
   #shopify-section-{{ section.id }}{background:{{ '#F7F6EF' }};}
 
@@ -59,7 +59,7 @@ padding-top: 64px
     margin: 6px 0;
 }
 
-.globo-form-app .panel{ margin-top:25px;}
+.globo-form-app .panel{}
 
 .globo-form-control{padding: 0 12px;}
 
@@ -224,7 +224,16 @@ textarea.classic-input { max-width:100%; }
 
 
 
-setTimeout(()=>{console.log(document.querySelectorAll('.panel'))}, 2000)
+setTimeout(()=>{
+
+const moveIn = document.querySelectorAll('.movingIn ');
+  
+cont getRealHeight = moveIn[0].clientHeight;
+
+
+
+
+}, 2000)
 
 
 
