@@ -39,6 +39,8 @@
   .rich-text__blocks {
     max-width: 95rem;
   }
+
+  .rich-text__blocks .rich-text__text{  max-width: 90%;}
 }
 
 .rich-text__blocks * {
