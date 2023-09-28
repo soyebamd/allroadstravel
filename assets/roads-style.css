@@ -322,6 +322,8 @@
 
 /*custom fix*/
 
+section#shopify-section-template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69{ position:relative;}
+
 section#shopify-section-template--20516534124845__190d7767-a135-4f2a-a317-26e567fe5f69:after{    content: '';
   display: block;
   position: absolute;
