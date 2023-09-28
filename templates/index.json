@@ -93,6 +93,48 @@
         "padding_bottom": 76
       }
     },
+    "fc22a110-bf66-4773-a03f-8c01a5a49aca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Group Can Rock Your Event With your own unique design!",
+            "heading_size": "h1"
+          }
+        },
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete this form to request a custom design and place a bulk order! Send us your artwork and we will setup a custom order page just for your customize design!<\/p>"
+          }
+        },
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request Custom Designs",
+            "button_link": "shopify:\/\/pages\/custom-group-orders",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-heading-1",
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-text-1",
+        "template--20516534124845__fc22a110-bf66-4773-a03f-8c01a5a49aca-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3390ad87-193c-45e3-a9ea-844a96ce04e5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -142,6 +184,7 @@
   "order": [
     "image_banner",
     "190d7767-a135-4f2a-a317-26e567fe5f69",
+    "fc22a110-bf66-4773-a03f-8c01a5a49aca",
     "featured_collection",
     "144d7ef9bea11360b9686cd5e485546b"
   ]
